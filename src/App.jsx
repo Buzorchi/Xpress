@@ -11,6 +11,7 @@ import './index.css'
 import Signup from './Components/signup';
 import Signin from './Components/Signin';
 import Dashboard from "./Components/Dashboard";
+import BasicDemo from "./Components/table";
 
 
 const router = createBrowserRouter(

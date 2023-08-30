@@ -11,7 +11,7 @@ import { users } from "./UserData";
 import { UserStatus } from "./UserStatus";
 import dropdown from "../images/chevron-down.png"
 import Input from "./input";
-
+import Table from "./Table"
 
 
 
@@ -89,7 +89,8 @@ const Dashboard = () => {
             </div>
           </div>
           {/* table */}
-          <table className="text-sm text-left bg-white mt-10 w-full  text-[#1A1619] font-normal ">
+          <Table/>
+          {/* <table className="text-sm text-left bg-white mt-10 w-full  text-[#1A1619] font-normal ">
             <thead className="text-[#1A1619] font-bold text-sm  border-b-2 border-solid border-[#EBEFF2]">
               <tr>
                 <th className="w-16 py-1 px-6 pb-3">
@@ -120,7 +121,7 @@ const Dashboard = () => {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table> */}
           {/* pagination */}
           <div className="inline-flex justify-between w-full bg-white">
               <div className="inline-flex " >

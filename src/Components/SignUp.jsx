@@ -58,7 +58,7 @@ const Signup = () => {
             </div>
 
             <div className="w-[32.625rem] mt-[7.625rem] mx-auto bg-white shadow-[0 4px 10px 0 rgb(0 0 0/ 0.36%)] rounded-lg px-10 pt-6 pb-8 mb-4">
-                <div >z
+                <div >
                     <p className="w-[20.938rem] h-8  font-medium text-2xl leading-7 text-[#039BF0]">Welcome to Xpress Rewards</p>
                     <p className="w-[27.625rem] h-[1.125rem] mt-0.5 font-sm text-xs text-[#606060]  ">Complete the form below to get started</p>
                 </div>
